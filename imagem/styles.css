@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    /* Faz com que todos os blocos (classes das imagens) fiquem na mesma linha, mas tenham comportamento de bloco */
+    display: inline-block;
+}
+
+.imagem1 {
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 100%; /* A imagem poderá chegar no máximo a 100% do tamanho quando a tela for grande - Responsivo para celular */
+}
+
+.imagem2 {
+    /* Tamanho fixo, não é adequado para celular */
+    width: 100px;
+    height: 100px;
+}
+
+.imagem3 {
+    width: 150px;
+    height: 150px;
+    /* Sombra para a caixa e o rgba define a cor */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+.imagem4 {
+    /* Com margin-left e margin-right igual a auto, consigo centralizar a caixa */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* Opacity define a transparência da imagem */
+    opacity: 0.5;
+}
